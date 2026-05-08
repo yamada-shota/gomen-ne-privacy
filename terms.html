@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>利用規約 — ごめんネ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #F5F4F2;
+      color: #1C1917;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.8;
+      padding: 40px 16px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .site-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+      font-size: 26px;
+      font-weight: 500;
+      color: #1C1917;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 12px;
+    }
+
+    .nav-links a {
+      font-size: 13px;
+      color: #78716C;
+      text-decoration: none;
+      padding-bottom: 2px;
+    }
+
+    .nav-links a:hover { color: #1C1917; }
+
+    .nav-links a.active {
+      color: #1C1917;
+      font-weight: 500;
+      border-bottom: 1.5px solid #292524;
+    }
+
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #E8E6E3;
+      border-radius: 16px;
+      padding: 32px 28px;
+    }
+
+    @media (max-width: 480px) {
+      .card { padding: 24px 20px; }
+    }
+
+    .doc-title {
+      font-size: 20px;
+      font-weight: 500;
+      color: #1C1917;
+      margin-bottom: 6px;
+    }
+
+    .updated {
+      font-size: 12px;
+      color: #A8A29E;
+      margin-bottom: 28px;
+    }
+
+    .lead {
+      color: #78716C;
+      font-size: 14px;
+      margin-bottom: 32px;
+      line-height: 1.9;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 500;
+      color: #1C1917;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      padding-left: 10px;
+      border-left: 3px solid #292524;
+    }
+
+    h3 {
+      font-size: 13px;
+      font-weight: 500;
+      color: #78716C;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #78716C;
+      line-height: 1.9;
+      margin-bottom: 10px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      font-size: 14px;
+      color: #78716C;
+      line-height: 1.9;
+      margin-bottom: 4px;
+    }
+
+    strong { color: #1C1917; font-weight: 500; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 13px;
+    }
+
+    th {
+      background: #F5F4F2;
+      color: #78716C;
+      font-weight: 500;
+      text-align: left;
+      padding: 8px 12px;
+      border: 1px solid #E8E6E3;
+    }
+
+    td {
+      padding: 8px 12px;
+      border: 1px solid #E8E6E3;
+      color: #78716C;
+      vertical-align: top;
+    }
+
+    .info-box {
+      background: #F5F4F2;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin: 12px 0;
+    }
+
+    .info-box p { margin-bottom: 0; }
+
+    .contact-box {
+      background: #F5F4F2;
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-top: 36px;
+    }
+
+    .contact-box p { margin-bottom: 4px; }
+
+    .contact-label {
+      font-size: 11px;
+      font-weight: 500;
+      color: #A8A29E;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 8px !important;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #E8E6E3;
+      margin: 28px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 12px;
+      color: #A8A29E;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header class="site-header">
+      <div class="logo">ごめんネ</div>
+      <nav class="nav-links">
+        <a href="terms.html" class="active">利用規約</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+      </nav>
+    </header>
+
+    <div class="card">
+      <h1 class="doc-title">利用規約</h1>
+      <p class="updated">最終更新日：2026年5月8日</p>
+
+      <p class="lead">
+        本利用規約（以下「本規約」）は、ごめんネ（以下「当サービス」）の利用に関する条件を定めるものです。
+        当サービスを利用することにより、本規約に同意したものとみなします。
+      </p>
+
+      <hr class="divider" />
+
+      <h2>第1条（サービスの内容）</h2>
+      <p>当サービスは、カップルや夫婦が喧嘩や言い合いの後に感情を整理し、パートナーと共有して仲直りを支援するアプリケーションです。主な機能は以下のとおりです。</p>
+      <ul>
+        <li><strong>きろくの作成</strong>：出来事・気持ち・原因・解決策をウィザード形式で記録できます。</li>
+        <li><strong>ペアリング</strong>：招待コードで1対1のパートナーとペアリングできます。</li>
+        <li><strong>共有</strong>：作成したきろくをパートナーに共有し、コメント・リアクション・解決フラグで応答できます。</li>
+        <li><strong>統計</strong>：過去のきろくを振り返る統計・カレンダー機能を提供します。</li>
+      </ul>
+
+      <h2>第2条（アカウント登録）</h2>
+      <p>当サービスの利用にはアカウント登録が必要です。</p>
+      <ol>
+        <li>登録にはメールアドレスとパスワードが必要です。登録後、メールアドレスの確認が求められます。</li>
+        <li>ユーザーは正確な情報を登録し、最新の状態に保つ義務を負います。</li>
+        <li>アカウントの管理はユーザー自身の責任で行ってください。パスワードの漏洩・不正利用について、当サービスは責任を負いません。</li>
+        <li>1つのメールアドレスにつき1つのアカウントを登録できます。</li>
+      </ol>
+
+      <h2>第3条（ペアリング）</h2>
+      <ol>
+        <li>当サービスでは、1アカウントにつき1名のパートナーとペアリングできます。</li>
+        <li>ペアリングには招待コードを使用します。招待コードを意図しない第三者と共有しないよう注意してください。</li>
+        <li>ペアリング中は、共有したきろく・コメント・リアクションがパートナーから閲覧可能になります。</li>
+        <li>ペアリングはいつでも解除できますが、解除時にはコメント・リアクション・解決フラグがすべて削除されます（きろく本文は削除されません）。</li>
+      </ol>
+
+      <h2>第4条（コンテンツの取り扱い）</h2>
+      <ol>
+        <li>ユーザーが入力したきろく・コメント・リアクションの著作権はユーザー自身に帰属します。</li>
+        <li>当サービスは、サービス提供の目的の範囲内でのみ入力されたコンテンツを保存・処理します。</li>
+        <li>きろくは作成者本人とペアリングしたパートナーのみが閲覧できます。第三者に開示されることはありません。</li>
+        <li>共有したきろくの閲覧範囲はペアリングしたパートナー1名に限られます。</li>
+      </ol>
+
+      <h2>第5条（禁止事項）</h2>
+      <p>ユーザーは以下の行為を行ってはなりません。</p>
+      <ul>
+        <li>他者へのなりすまし</li>
+        <li>不正な方法による他者のアカウントへのアクセス</li>
+        <li>当サービスのシステムへの不正アクセスまたは妨害行為</li>
+        <li>法令に違反するコンテンツの投稿</li>
+        <li>当サービスのリバースエンジニアリング、逆コンパイル</li>
+        <li>その他、当サービスが不適切と判断する行為</li>
+      </ul>
+
+      <h2>第6条（有料プランと料金）</h2>
+
+      <h3>無料プラン</h3>
+      <p>登録後、追加費用なしで以下の機能が利用できます。</p>
+      <ul>
+        <li>きろくの作成・編集・削除（件数無制限）</li>
+        <li>月3件までのきろく共有</li>
+        <li>1か月分の統計・カレンダー</li>
+      </ul>
+
+      <h3>プレミアムプラン</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>プラン</th>
+            <th>料金</th>
+            <th>内容</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>月額プラン</td>
+            <td>480円/月</td>
+            <td rowspan="2">共有件数無制限・統計期間無制限</td>
+          </tr>
+          <tr>
+            <td>年額プラン</td>
+            <td>4,800円/年<br><span style="font-size:12px;color:#A8A29E;">（月換算400円）</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>※ 価格は税込です。Apple App Storeを通じて課金されます。</p>
+
+      <h3>課金・解約について</h3>
+      <ol>
+        <li>課金の管理・解約はApp Storeのサブスクリプション設定から行ってください。</li>
+        <li>解約した場合、現在の請求期間終了までプレミアム機能を引き続き利用できます。</li>
+        <li>返金はApple App Storeの規約に従います。当サービスでは返金対応を行いません。</li>
+        <li>プレミアムプランは自動更新されます。更新を停止するには期間終了の24時間前までにApp Storeで解約手続きを行ってください。</li>
+      </ol>
+
+      <h2>第7条（サービスの変更・停止）</h2>
+      <p>当サービスは、事前の通知なしにサービスの内容変更・一時停止・終了を行う場合があります。これによりユーザーに損害が生じた場合でも、当サービスは法令の定める範囲を超えて責任を負いません。</p>
+
+      <h2>第8条（免責事項）</h2>
+      <ol>
+        <li>当サービスは、ユーザー間の関係改善・仲直りを保証するものではありません。</li>
+        <li>当サービスの利用により生じたユーザー間のトラブルについて、当サービスは責任を負いません。</li>
+        <li>通信障害・システム障害・メンテナンス等によりサービスが利用できない場合でも、当サービスは責任を負いません。</li>
+        <li>ユーザーが投稿したコンテンツの内容について、当サービスは一切責任を負いません。</li>
+      </ol>
+
+      <h2>第9条（アカウントの削除）</h2>
+      <p>ユーザーはいつでもアプリ内の設定画面からアカウントを削除できます。削除時には、きろく・コメント・リアクション・アバター画像・アカウント情報・ペアリング情報を含むすべてのデータが即時かつ完全に削除されます。削除後のデータ復元はできません。</p>
+
+      <h2>第10条（規約の変更）</h2>
+      <p>当サービスは、必要に応じて本規約を変更することがあります。重要な変更を行う場合は、アプリ内またはメールで事前にお知らせします。変更後も継続して当サービスを利用した場合、変更後の規約に同意したものとみなします。</p>
+
+      <h2>第11条（準拠法・管轄）</h2>
+      <p>本規約は日本法に準拠します。当サービスに関する紛争については、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+
+      <div class="contact-box">
+        <p class="contact-label">お問い合わせ</p>
+        <p>本規約に関するご質問は、以下のメールアドレスまでご連絡ください。</p>
+        <p><strong>[CONTACT_EMAIL]</strong></p>
+        <p style="margin-top:8px; font-size:13px; color:#A8A29E;">運営：ごめんネ</p>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>&copy; ごめんネ All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
